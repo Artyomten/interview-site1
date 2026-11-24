@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interview - Photography Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Menu overlay ===== -->
+  <nav class="menu" id="menu" aria-hidden="true">
+    <button class="menu__close" id="menuClose" aria-label="Close menu">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html#clients">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <header class="hero">
+    <div class="topbar">
+      <a href="#" class="logo">INTERVIEW</a>
+      <button class="burger" id="menuOpen" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <img class="hero__img" src="images/hero.jpg" alt="Black cowboy boots on a red background">
+  </header>
+
+  <main>
+
+    <!-- ===== Intro ===== -->
+    <section class="intro" id="about">
+      <div class="intro__photo intro__photo--left">
+        <img src="images/intro-1.jpg" alt="Model in a red blazer">
+      </div>
+      <div class="intro__text">
+        <h1>Special Photography<br>Studio Based In Berlin,<br>Germany</h1>
+        <p>Always taking great pleasure in the work we do, we find satisfaction in the simple acts of thinking and making. Since 2005, we've worked to build strategies and craft solutions for our collaborators, applying reason and rationality to the process of design.</p>
+        <a class="link-arrow" href="about.html">About us <span>&#10230;</span></a>
+      </div>
+      <div class="intro__photo intro__photo--right">
+        <img src="images/intro-2.jpg" alt="Black and white portrait">
+      </div>
+    </section>
+
+    <!-- ===== Featured projects ===== -->
+    <section id="projects">
+
+      <!-- 03 — black -->
+      <article class="featured featured--dark">
+        <div class="featured__info">
+          <span class="num">03</span>
+          <span class="label">Featured Project</span>
+          <h2>Project Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a class="link-arrow" href="projects.html">View Project <span>&#10230;</span></a>
+        </div>
+        <img src="images/project-03.jpg" alt="Portrait with hands on face">
+      </article>
+
+      <!-- 02 — full width video-style -->
+      <article class="featured-full">
+        <img src="images/project-02.jpg" alt="Dancer in a dark dress">
+        <div class="featured-full__info">
+          <span class="num">02</span>
+          <span class="label">Featured Project</span>
+          <h2>Project Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a class="link-arrow" href="projects.html">View Project <span>&#10230;</span></a>
+        </div>
+        <button class="pause" type="button">Pause / Mute</button>
+      </article>
+
+      <!-- 01 — white -->
+      <article class="featured featured--light featured--reverse">
+        <div class="featured__info">
+          <span class="num">01</span>
+          <span class="label">Featured Project</span>
+          <h2>Project Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a class="link-arrow" href="projects.html">View Project <span>&#10230;</span></a>
+        </div>
+        <img src="images/project-01.jpg" alt="Model with a veil">
+      </article>
+
+      <!-- 04 — two images + carousel dots -->
+      <article class="featured-duo">
+        <div class="featured-duo__left">
+          <span class="num">04</span>
+          <span class="label">Featured Project</span>
+          <img src="images/project-04a.jpg" alt="Model in lilac trousers">
+          <h2>Oridnary Challenge</h2>
+          <p>Oridnary is a Gothenburg-based creative development studio. Through technology and design they differentiate artists, creatives and brands to help them break through the noise. Oridnary likes to challenge the ordinary.</p>
+          <a class="link-arrow" href="projects.html">View Project <span>&#10230;</span></a>
+        </div>
+        <div class="featured-duo__right">
+          <img src="images/project-04b.jpg" alt="Couple in a blue and white coat">
+          <div class="dots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <span class="footer__copy">© 2021 - ITERVIEW / All Rights Reserved</span>
+    <div class="footer__links">
+      <span>Find us online</span>
+      <a href="#">Instagram</a>
+      <a href="#">Linkedin</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

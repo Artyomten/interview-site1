@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Interview</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="menu" id="menu" aria-hidden="true">
+    <button class="menu__close" id="menuClose" aria-label="Close menu">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html#clients">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="topbar topbar--fixed">
+    <a href="index.html" class="logo">INTERVIEW</a>
+    <button class="burger" id="menuOpen" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+
+  <main>
+
+    <!-- Services (black) -->
+    <section class="services" id="clients">
+      <img class="services__img" src="images/services.jpg" alt="Two models in beige underwear">
+      <div class="services__grid">
+        <h3 class="services__title">Services</h3>
+        <div class="services__list">
+          <div><h4>Production</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+          <div><h4>Set Design</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+          <div><h4>Production</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+          <div><h4>Set Design</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+          <div><h4>Production</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+          <div><h4>Set Design</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact" id="contact">
+      <h3 class="contact__title">Contact</h3>
+      <form class="form" id="contactForm" novalidate>
+        <label class="field"><sup>(1)</sup><input type="text" name="name" placeholder="Name" required></label>
+        <label class="field"><sup>(2)</sup><input type="email" name="email" placeholder="Email" required></label>
+        <label class="field"><sup>(3)</sup><input type="text" name="message" placeholder="Message" required></label>
+        <button class="submit" type="submit"><sup>(4)</sup>Submit</button>
+        <p class="form__status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="footer__copy">© 2021 - ITERVIEW / All Rights Reserved</span>
+    <div class="footer__links">
+      <span>Find us online</span>
+      <a href="#">Instagram</a>
+      <a href="#">Linkedin</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
